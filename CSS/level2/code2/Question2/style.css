@@ -1,0 +1,25 @@
+#outline {
+    height: 60px;
+    background-color: #0f1111;
+   
+   
+}
+*{
+    color: aliceblue;
+}
+a{
+    margin-right: 150px;
+   
+     
+}
+#amazon{
+    color: orange;
+     padding-left: 10px;
+}
+button{
+    color: yellow;
+    background-color: blue;
+}
+input{
+    background-color:skyblue;
+}

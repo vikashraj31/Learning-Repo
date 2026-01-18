@@ -1,0 +1,14 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+@media(width:600px){
+    div{
+        background-color: brown;
+    }
+}
+
+@media(min-width:200px)and(max-width:300px){
+    div{baground-color:yellow; }
+}

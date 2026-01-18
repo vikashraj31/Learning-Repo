@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    transition-property: all;   
+   
+
+}
+div:hover{
+    background-color: black;
+    color: antiquewhite;
+    transform: skew(30deg);
+    
+}

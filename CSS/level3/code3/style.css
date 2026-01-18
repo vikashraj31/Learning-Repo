@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(133, 55, 55);
+    border: 1px solid rgb(59, 59, 166);
+   
+}
+#box2{
+    background-image: url('1.jpg');
+    background-size: cover;
+   
+    
+}
+body{
+    background-size: cover;
+    background-image: url("1.jpg");
+}

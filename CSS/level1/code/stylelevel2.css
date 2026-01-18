@@ -1,0 +1,49 @@
+div{
+    height: 50px;
+    width: 400px;
+    background-color:yellow;
+    border-style: solid;
+    border-radius: 17px;
+    text-align: center;
+}
+h4{
+    height: 30px;
+    width: 1;
+    background-color: aqua;
+
+}
+p{
+    border-width: 11px;
+    border-style: dotted;
+    border-color: red;
+    background-color: yellow;
+
+}
+h2{
+    height: 50px;
+    border: 10px solid red;
+}
+h3{
+    height: 100px;
+    width: 100px;
+    border-style: groove;
+    border-color: blue;
+    border-radius: 1px;
+    text-align: center;
+    padding: 5px 2px 5px 7px;
+    margin top:50px ;
+    
+}
+h1{
+    height: 30px;
+    width: 110px;
+    border-width: 4px;
+    background-color: rgb(255, 162, 0);
+    border-style: solid;
+    border-color: rgb(0, 255, 110);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}

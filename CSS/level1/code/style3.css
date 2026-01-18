@@ -1,0 +1,22 @@
+#one{
+    font-size: 25px;
+}
+
+#three{
+    font-size: x-small;
+}
+#one{
+    line-height: 50px;
+    text-transform: uppercase;
+}
+header{
+   text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+#one{
+    font: size 25px;
+}
+#two{
+    font-size: 10px;
+}

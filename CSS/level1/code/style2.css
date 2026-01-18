@@ -1,0 +1,30 @@
+
+    #box{
+        /* color: blue; */
+        background-color: rgb(255, 0, 0);
+    }
+h1,h3{
+    color: #131bbf;
+    text-decoration: line-through;
+}
+p{
+    text-align:right;
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+}
+p{
+    text-decoration: underline;
+    font-weight: bold;
+}
+a{
+    text-decoration:  none;
+}
+footer{
+    font-family: cursive;
+    text-decoration: bolder;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}

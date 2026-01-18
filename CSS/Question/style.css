@@ -1,0 +1,17 @@
+#one{
+    background-color: rgb(28, 78, 22);
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#two{
+     background-color: rgb(22, 90, 110);
+    height: 100px;
+    width: 100px;
+    align-items: center;
+
+}

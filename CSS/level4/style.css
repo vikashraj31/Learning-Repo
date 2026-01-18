@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+div{
+    height: 70px;
+    width: 250px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#main{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+}
+
+#one{
+    
+    background-color: blue;
+}
+#two{
+    
+    background-color: yellow;
+    height: 50px;
+    width: 70px;
+}
+#three{
+    
+    background-color: pink;
+}
+#four{
+    
+    background-color: red;
+}

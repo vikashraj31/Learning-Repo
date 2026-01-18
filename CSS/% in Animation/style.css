@@ -1,0 +1,25 @@
+div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    animation:myname 1s ease-in 0s 5  normal;
+}
+@keyframes myname {
+    0%{
+        background-color: aquamarine;
+        left: 10px;
+    }
+    50%{
+        background-color: brown;
+        right: 20px;
+    }
+    100%{
+        background-color: blue;
+        right:40px;
+        left: 20px;
+    }
+
+}
