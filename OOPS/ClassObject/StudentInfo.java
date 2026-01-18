@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.ClassObject;
 
 // This is Student class
 class Student {

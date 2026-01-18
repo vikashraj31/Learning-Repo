@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.ClassObject;
 
 class Car {
     String brand;

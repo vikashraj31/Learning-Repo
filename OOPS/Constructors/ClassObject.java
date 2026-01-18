@@ -1,4 +1,4 @@
-package OOPS.ClassObject;
+package OOPS.Constructors;
 
 class Pen {
     String type;

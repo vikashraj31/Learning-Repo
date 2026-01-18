@@ -1,4 +1,5 @@
-package OOPS;
+package OOPS.ClassObject;
+
 
 class Student {
     void show() {
