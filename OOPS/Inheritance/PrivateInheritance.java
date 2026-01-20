@@ -2,25 +2,25 @@ package OOPS.Inheritance;
 
 // Parent class
 class Father {
-    private int age;   // private variable
+    private int age;  
     String name;
 
-    // Setter
+    
     public void setAge(int age) {
         this.age = age;
     }
 
-    // Getter
+    
     public int getAge() {
         return age;
     }
 }
 
-// Child class
+
 class Son extends Father {
     int no;
 
-    // Constructor
+
     Son(int no, String name, int age) {
         this.no = no;
         this.name = name;     // inherited variable
@@ -39,5 +39,8 @@ public class PrivateInheritance {
 
         Son s1 = new Son(234, "Vikash", 22);
         s1.show();
+
+        Son s2 = new Son(114, "Aastha", 20);
+        s2.show();
     }
 }
