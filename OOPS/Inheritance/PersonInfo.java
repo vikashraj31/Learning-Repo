@@ -13,7 +13,9 @@ class Student extends Person {
     
     int roll;
     Student(int roll, String studentName) {
-        super(studentName); //At the place of this.studentName  
+        super(studentName); // super(studentName) is used instead of directly assigning to the variable
+                            // because the parent (father) class has a parameterized constructor that
+                            // must be called to initialize its own data.
         this.roll = roll;
     }
 
@@ -28,4 +30,5 @@ public class PersonInfo {
         Student s1 = new Student(240525, "Vikash");
         s1.show();
     }
+
 }
