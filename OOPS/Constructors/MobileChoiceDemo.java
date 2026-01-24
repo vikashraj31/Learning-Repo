@@ -6,10 +6,11 @@ class Mobile {
     String brand;
     int price;
 
-    
     Mobile() {
         brand = "Samsung";
         price = 15000;
+
+        
     }
 
     
@@ -21,6 +22,7 @@ class Mobile {
     void show() {
         System.out.println("Brand: " + brand + ", Price: " + price);
     }
+
 }
 
 public class MobileChoiceDemo {
@@ -28,12 +30,11 @@ public class MobileChoiceDemo {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Which mobile do you want to enter data for?");
-        System.out.println("Mobile 1");
-        System.out.println("Mobile 2");
+        System.out.print("Which mobile do you want to enter data for? Mobile 1 or Mobile 2 -> ");
         int choice = sc.nextInt();
         sc.nextLine();
-
+        
+        //Object is created but not allocate dynamically memory (= new Mobile();)
         Mobile m1;
         Mobile m2;
 
@@ -45,7 +46,12 @@ public class MobileChoiceDemo {
             int price = sc.nextInt();
 
             m1 = new Mobile(brand, price); 
-            m2 = new Mobile();             
+            System.out.println("Mobile 1");
+            m1.show();
+            
+            m2 = new Mobile();
+            System.out.println("Mobile 2");
+            m2.show();
 
         } else{
             System.out.print("Enter Mobile Brand: ");
@@ -55,15 +61,15 @@ public class MobileChoiceDemo {
             int price = sc.nextInt();
 
             m2 = new Mobile(brand, price); 
-            m1 = new Mobile();         
+            System.out.println("Mobile 2");
+            m2.show();
+                    
+            m1 =new Mobile();
+            System.out.println("Mobile 1");
+            m1.show();
 
         }
 
-        System.out.println("\n--- Mobile Details ---");
-        System.out.print("Mobile 1 -> ");
-        m1.show();
-
-        System.out.print("Mobile 2 -> ");
-        m2.show();
+        
     }
 }
