@@ -20,7 +20,7 @@ public class CarInfo {
         c2.speed = 250;
         c2.brand = "XUV700";
 
-        // Calling methods
+        
         c1.showDetails();
         c2.showDetails();
     }
