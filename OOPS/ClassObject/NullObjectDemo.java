@@ -10,7 +10,7 @@ class Student {
 public class NullObjectDemo {
     public static void main(String[] args) {
 
-        Student s = new Student();   // object created
-        s.show();                   // works fine
+        Student s = new Student();   
+        s.show();                   
     }
 }
