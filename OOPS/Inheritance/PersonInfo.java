@@ -3,19 +3,17 @@ package OOPS.Inheritance;
 class Person {
     String name;
 
-    // Parent constructor
     Person(String name) {
         this.name = name;
     }
 }
 
+//Extended class with extra input and super class 
 class Student extends Person {
-
+    
     int roll;
-
-    // Child constructor calling parent constructor
     Student(int roll, String studentName) {
-        super(studentName);   // calls Person constructor
+        super(studentName); //At the place of this.studentName  
         this.roll = roll;
     }
 

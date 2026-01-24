@@ -1,6 +1,5 @@
 package OOPS.Inheritance;
 
-// Parent class
 class Father {
     private int age;  
     String name;
@@ -23,8 +22,8 @@ class Son extends Father {
 
     Son(int no, String name, int age) {
         this.no = no;
-        this.name = name;     // inherited variable
-        setAge(age);         // accessing private variable using setter
+        this.name = name;    
+        setAge(age);         
     }
 
     void show() {

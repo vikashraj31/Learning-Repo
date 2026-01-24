@@ -1,6 +1,5 @@
 package OOPS.ClassObject;
 
-
 class Student {
     void show() {
         System.out.println("Student details");
@@ -10,7 +9,7 @@ class Student {
 public class NullObjectDemo {
     public static void main(String[] args) {
 
-        Student s = new Student();   
-        s.show();                   
+        Student s = new Student();
+        s.show();
     }
 }
