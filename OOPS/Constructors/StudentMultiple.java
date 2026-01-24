@@ -5,7 +5,6 @@ class Student {
     String name;
     String section;
 
-    // Constructor using this keyword
     Student(int age, String name, String section) {
         this.age = age;
         this.name = name;
