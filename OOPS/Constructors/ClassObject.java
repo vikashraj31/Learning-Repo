@@ -4,13 +4,13 @@ class Pen {
     String type;
     String name;
 
-    // Parameterized Constructor
+
     Pen(String type, String name) {
         this.type = type;
         this.name = name;
     }
 
-    // Default Constructor
+
     Pen() {
         this.type = "Not Defined";
         this.name = "Not Defined";
@@ -40,11 +40,11 @@ public class ClassObject {
         p1.print();
         p2.print();
 
-        // Default constructor
+        
         Pen p3 = new Pen();
         p3.print();
 
-        // Copy constructor
+        //Copy p1 into p4
         Pen p4 = new Pen(p1);
         p4.print();
     }
