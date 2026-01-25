@@ -1,6 +1,4 @@
 package OOPS.Inheritance;
-
-
 /*
  * If the parent (super) class does NOT define any constructor,
  * Java automatically provides a default no-argument constructor.

@@ -2,7 +2,6 @@ package OOPS.Polymorphism;
 
 class Calculator {
 
-    
     int calculation(int x, int y) {
         return x + y;
     }
@@ -11,7 +10,7 @@ class Calculator {
     }
 
     int calculation(double x, double y) {
-        return (int)(x - y);
+        return (int) (x+y); //type conversion rules in Java and to ensure correct order of evaluation
     }
 
 }
