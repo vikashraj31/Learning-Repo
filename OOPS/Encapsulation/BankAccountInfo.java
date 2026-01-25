@@ -3,8 +3,8 @@ package OOPS.Encapsulation;
 
 class BankAccount {
 
-    private float balance;     // hidden data
-    private int accountNo;     // hidden data
+    private float balance;     
+    private int accountNo;     
 
 
     public void setAccountNo(int accountNo) {
