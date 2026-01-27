@@ -8,6 +8,7 @@ interface Scannable {
     void scan();
 }
 
+//Multi Interface implements
 class OfficeMachine implements Printable, Scannable {
 
     public void print() {
