@@ -11,6 +11,7 @@ interface Scannable{
 
 class OfficeMachine implements Printable, Scannable {
     public void print() {
+        System.out.println("This is Print Function");
         
     }
 
