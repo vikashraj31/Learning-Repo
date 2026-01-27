@@ -16,7 +16,7 @@ class OfficeMachine implements Printable, Scannable {
     }
 
     public void scan() {
-        
+        System.out.println("This is Print Scan");
     }
 }
 
