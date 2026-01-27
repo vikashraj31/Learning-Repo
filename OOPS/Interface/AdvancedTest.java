@@ -26,6 +26,7 @@ public class AdvancedTest {
         Mobile m1 = new Mobile();
         m1.turnOn();
         m1.showType();   // default method from interface
+        // m1.info();  this is not possible because it is only part of interface itself
 
         Device.info();  // static method called using interface name
     }
