@@ -1,4 +1,4 @@
-package OOPS.ExamQuestion.ClassObjectConstructor;
+package OOPS.ExamQuestion;
 
 import java.util.*;
 
