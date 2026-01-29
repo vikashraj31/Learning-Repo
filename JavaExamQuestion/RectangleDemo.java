@@ -1,4 +1,4 @@
-package OOPS.ExamQuestion;
+package JavaExamQuestion;
 //Create a class Rectangle with methods read(), calculate() and display() to find area and perimeter.
 
 import java.util.*;

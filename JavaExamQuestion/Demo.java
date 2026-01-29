@@ -1,4 +1,4 @@
-package OOPS.ExamQuestion;
+package JavaExamQuestion;
 
 //Write a class Box with data members length, width,
 //height and a method volume(). Create Demo class to take input and print volume.
