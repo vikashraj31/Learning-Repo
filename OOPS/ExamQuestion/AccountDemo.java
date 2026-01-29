@@ -1,4 +1,6 @@
 package OOPS.ExamQuestion;
+//Write a class Account with acc_no and balance,
+//methods input() and disp(). Create subclass Person with name and aadhar_no and override disp().
 
 import java.util.*;
 

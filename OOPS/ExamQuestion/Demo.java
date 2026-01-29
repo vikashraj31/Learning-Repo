@@ -1,5 +1,8 @@
 package OOPS.ExamQuestion;
 
+//Write a class Box with data members length, width,
+//height and a method volume(). Create Demo class to take input and print volume.
+
 import java.util.Scanner;
 
 
