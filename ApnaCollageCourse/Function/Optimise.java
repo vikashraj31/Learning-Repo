@@ -1,24 +1,17 @@
 package Function;
 
-public class prime {
-
-    static public void prime() {
-        System.out.println("Number is prime");
-    }
-
-    static public void notPrime() {
-        System.out.println("Number is not prime");
-    }
-
+public class Optimise {
     public static void main(String[] args) {
 
-        int n = 88;
+        int n = 66;
         boolean isPrime = true;
 
         if (n <= 1) {
             isPrime = false;
+        } else if (n == 2) {
+            isPrime = true;
         } else {
-            for (int i = 2; i <= n -1; i++) {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
                 if (n % i == 0) {
                     isPrime = false;
                     break;
@@ -27,8 +20,8 @@ public class prime {
         }
 
         if (isPrime)
-            prime();
+            System.out.println("No is Prime");
         else
-            notPrime();
+            System.out.println("No is not Prime");
     }
 }
