@@ -22,6 +22,6 @@ public class BinarySearch {
     public static void main(String[] args) {
         int arr[] = { 1, 4, 5, 33, 56, 77, 100 };
 
-        System.out.println(Search(arr, 56));
+        System.out.println("Index is "+Search(arr, 56));
     }
 }
