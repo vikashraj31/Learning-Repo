@@ -1,41 +1,35 @@
-public class TrappingRainwater {
+class Solution {
+    public  static int trap(int[] height) {
 
-    public static int Water(int arr[], int n) {
+        int n = height.length;
 
-        int totalWater = 0;
+        int leftMax[] = new int[n];
+        leftMax[0] = height[0];
 
-        for (int j = 0; j < n; j++) {
-
-            int maxl = arr[j];
-            int maxr = arr[j];
-
-            
-            for (int k = 0; k <= j; k++) {
-                if (arr[k] > maxl)
-                    maxl = arr[k];
-            }
-
-            
-            for (int L = j; L < n; L++) {
-                if (arr[L] > maxr)
-                    maxr = arr[L];
-            }
-
-            int mostmax = Math.min(maxl, maxr);
-
-            int w = mostmax - arr[j];
-
-            totalWater += w;
+        for (int i = 1; i < n; i++) {
+            leftMax[i] = Math.max(height[i], leftMax[i - 1]);
         }
 
-        return totalWater;
+        int rightMax[] = new int[n];
+        rightMax[n - 1] = height[n - 1];
+
+        for (int i = n - 2; i >= 0; i--) {
+            rightMax[i] = Math.max(height[i], rightMax[i + 1]);
+        }
+
+        int trapWater = 0;
+
+        for (int i = 0; i < n; i++) {
+            int waterLevel = Math.min(leftMax[i], rightMax[i]);
+            trapWater += waterLevel - height[i];
+        }
+
+        return trapWater;
     }
 
     public static void main(String[] args) {
-        int Array[] = {1, 3, 4, 5, 3, 10, 2};
-        int n = Array.length;
-
-        int Ans = Water(Array, n);
-        System.out.println(Ans);
+        int arr[]={4,2,0,6,3,2,5};
+        int ans = trap(arr);
+        System.out.println(ans);
     }
 }
